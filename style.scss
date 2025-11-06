@@ -101,7 +101,7 @@ main{
                 padding-top: 0.3rem;
                 padding-right: 1rem;
                 margin-top: 1rem;
-                margin-right: 2rem;
+                margin-right: 2rem; 
 
                 img{
                     height: 30px;
@@ -825,7 +825,7 @@ main{
 
 // <!-- ================== PAGE-07 =================== -->
 .page7{
-    height: 200%;
+    height: 465%;
     width: 100%;
     background-color: #FFF6E5;
     padding-top: 0.1rem;
@@ -876,7 +876,10 @@ main{
             }
         }
     }
-    .faq{
+    .faqs-section{
+        display: flex;
+        flex-direction: column;
+        .faq{
         h2{
             color: black;
             font-family: bold;
@@ -887,7 +890,6 @@ main{
         }
         hr{
         color: black;
-        padding-top: 0.1rem;
         margin-left: 1rem;
         margin-right: 1rem;
         margin-top: 2rem;
@@ -898,10 +900,151 @@ main{
             details{
                 summary{
                     list-style: none;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-top: 1rem;
+                    font-family: semi;
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                }
+                p{
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-top: 1rem;
+                    font-size: 1rem;
                 }
             }
         }
+       }
+       .faq-image{
+        img{
+            height: 60vh;
+            width: 100vw;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 2rem;
+            object-fit: cover;
+        }
+        p{
+            padding-top: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-family: semi;
+            width: 65vw;
+        }
+       }
     }
+    .something{
+        background-color: black;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0.3rem;
+        height: 80vh;
+
+        h2{
+            display: flex;
+            text-align: center;
+            font-family: bold;
+            color: #FFF6E5;
+            padding-top: 5rem;
+            font-size: 5rem;
+            line-height: 4rem;
+        }
+        p{
+            color: #FFF6E5;
+            font-family: semi;
+            text-align: center;
+            padding-top: 2rem;
+            padding-left: 2.2rem;
+            width: 80vw;
+        }
+        .something-img{
+            display: flex;
+            img{
+                position: relative;
+                top: 12rem;
+                padding-left: 1.3rem;
+                transform: rotate(-15deg);
+                height: 14vh;
+                border-radius: 0.3rem;
+            }
+            img:nth-child(2){
+                position: relative;
+                top: 12rem;
+                right: 12rem;
+                transform: rotate(15deg);
+                height: 14vh;
+                border-radius: 0.3rem;
+            }
+            img:nth-child(3){
+                position: relative;
+                top: 12rem;
+                right: 25rem;
+                transform: rotate(-10deg);
+                height: 14vh;
+                border-radius: 0.3rem;
+            }
+            img:nth-child(4){
+                display: none;
+                position: relative;
+                top: 12rem;
+                right: 25rem;
+                transform: rotate(10deg);
+                height: 14vh;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+    .nav2{
+        h2{
+            font-family: bold;
+            padding-left: 1rem;
+            font-size: 3rem;
+            line-height: 3rem;
+        }
+    }
+    .footer{
+        .footer1{
+            color: black;
+            font-family: bold;
+            font-size: 2rem;
+            padding-top: 5rem;
+            padding-left: 1rem;
+            line-height: 2rem;
+        }
+        .footer2{
+            color: black;
+            font-family: bold;
+            font-size: 2rem;
+            padding-top: 2rem;
+            padding-left: 1rem;
+        }
+        .footer3{
+            color: black;
+            font-family: bold;
+            font-size: 2rem;
+            padding-top: 2rem;
+            padding-left: 1rem;
+            line-height: 2rem;
+        }
+    }
+    .last{
+        h2{
+            color: black;
+            font-family: bold;
+            font-size: 9rem;
+            text-align: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            line-height: 3rem;
+            padding-top: 5rem;
+        }
+        h2:nth-child(2){
+            font-size: 11.7rem;
+        }
+    }
+    
     
 }
 
@@ -1317,7 +1460,7 @@ main{
     }
 
     .page7{
-        height: 130%;
+        height: 620%;
         .rating{
             background-color: #120011;
             height: 95vh;
@@ -1341,6 +1484,101 @@ main{
                 img{
                     height: 8vh;
                 }
+            }
+        }
+        .faqs-section{
+            display: flex;
+            flex-direction: row-reverse;
+            .faq{
+                h2{
+                    font-size: 8rem;
+                    line-height: 7rem;
+                }
+            }
+            .faqs{
+                details{
+                    p{
+                        width: 30vw;
+                    }
+                }
+            }
+            .faq-image{
+                img{
+                    height: 80vh;
+                    width: 30vw;
+                    margin-right: 16rem;
+                }
+                p{
+                    width: 25vw;
+                    font-size: 2rem;
+                    margin-right: 16rem;
+                }
+            }
+        }
+        .something{
+            height: 130vh;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            h2{
+                display: flex;
+                justify-content: center;
+                font-size: 12rem;
+                padding-top: 6rem;
+                line-height: 10rem;
+            }
+            p{
+                padding-left: 8rem;
+                width: 60vw;
+                padding-left: 30rem;
+            }
+            .something-img{
+                img{
+                    position: relative;
+                    height: 30vh;
+                }
+                img:nth-child(2){
+                    position: relative;
+                    height: 29vh;
+                    right: 7rem;
+                }
+                img:nth-child(3){
+                    position: relative;
+                    height: 30vh;
+                    right: 8rem;
+                }
+                img:nth-child(4){
+                    display: flex;
+                    position: relative;
+                    height: 30vh;
+                    left: -15rem;
+                }
+            }
+        }
+        .nav2{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 1rem;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 3rem;
+            .footer1{
+                padding-left:2rem;
+            }
+            .footer3{
+                padding-right: 2rem;
+            }
+        }
+        .last{
+            h2{
+                padding-top: 4rem;
+                font-size: 35rem;
+                line-height: 28rem;
+            }
+            h2:nth-child(2){
+                font-size: 45rem;
             }
         }
     }
