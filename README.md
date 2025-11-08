@@ -43,12 +43,6 @@ It has a bright color scheme, big fonts, and large visuals that make the site lo
 
 ---
 
-## 📁 Folder Structure
-
-Mammoth-Murals/ │ ├── index.html ├── /scss │   ├── style.scss │   ├── _variables.scss │   ├── _responsive.scss │   └── _sections.scss └── /images ├── mural1.jpg ├── mural2.jpg └── ...
-
----
-
 ## 🚀 How to Open
 
 1. Download or clone the repository  
@@ -70,7 +64,7 @@ That’s all — the site will run directly without any setup!
 📸 Preview
 
 (You can add your website screenshot here)
-![Website Preview](preview-image.png)
+![Website Preview](SAVE_20251107_173359.jpg)
 
 
 ---
