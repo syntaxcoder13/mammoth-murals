@@ -47,7 +47,7 @@ It has a bright color scheme, big fonts, and large visuals that make the site lo
 
 1. Download or clone the repository  
    ```bash
-   git clone https://github.com/yourusername/mammoth-murals.git
+   git clone https://github.com/syntaxcoder13/mammoth-murals.git
 
 2. Open the folder in any code editor
 
