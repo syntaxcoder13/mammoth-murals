@@ -63,7 +63,7 @@ That’s all — the site will run directly without any setup!
 
 📸 Preview
 
-(You can add your website screenshot here)
+
 ![Website Preview](SAVE_20251107_173359.jpg)
 
 
